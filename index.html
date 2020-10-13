@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goldilock</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
     <section id="start-frame">
         <h1>The Story of Goldilocks and the Three Bears</h1>
         <button id="start-button">Start journey</button>
     </section>
-    <section id="chapter-one">
+    <section class="hide" id="chapter-one">
         <h3>Once upon a time, there was a little girl named Goldilocks. She went for a walk in the forest. Pretty soon, she came upon a house. She knocked and, when no one answered, she walked right in.</h3>
         <h3>At the table in the kitchen, there were three bowls of porridge. Goldilocks was hungry.</h3>
         <button id="chapter-one-option-one">First one</button>
@@ -18,11 +19,12 @@
         <button id="chapter-one-option-three">Third one</button>
         <h3 id="chapter-one-feedback"></h3>
     </section>
-    <section id="chapter-two">
+    <section class="hide" id="chapter-two">
         <button id="chapter-two-option-one">First one</button>
         <button id="chapter-two-option-two">Second one</button>
         <button id="chapter-two-option-three">Third one</button>
         <h3 id="chapter-two-feedback"></h3>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
