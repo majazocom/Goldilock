@@ -1,4 +1,4 @@
-jsconst chapOneOptOneFb = '"This porridge is too hot!" she exclaimed.';
+const chapOneOptOneFb = '"This porridge is too hot!" she exclaimed.';
 
 document.getElementById('start-button').addEventListener('click', function() {
     document.getElementById('chapter-one').classList.toggle('hide');
